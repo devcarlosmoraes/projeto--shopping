@@ -2,7 +2,12 @@
  export default {
     content: ["./src/**/*.{html,js}"],
     theme: {
-      extend: {},
+      extend: {
+        colors: {
+            amarelo: '#E6C744',
+            cinza: '#C2C8DA'
+        }
+      },
     },
     plugins: [],
   }
